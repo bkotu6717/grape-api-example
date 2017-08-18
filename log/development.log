@@ -1,0 +1,1549 @@
+Started GET "/api/v1/graduates" for 127.0.0.1 at 2017-08-18 15:19:11 +0530
+  
+NameError (uninitialized constant API::V1::Graduates::Graduate):
+  
+app/controllers/api/v1/graduates.rb:9:in `block (2 levels) in <class:Graduates>'
+  Rendering /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (36.5ms)
+  Rendered /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (140.9ms)
+Started GET "/api/v1" for 127.0.0.1 at 2017-08-18 15:19:43 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1"):
+  
+actionpack (5.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.5) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered collection of /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (54.6ms)
+  Rendered /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (35.3ms)
+  Rendering /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (196.0ms)
+Started GET "/api/v1/graduates" for 127.0.0.1 at 2017-08-18 15:20:48 +0530
+  
+NameError (uninitialized constant API::V1::Graduates::Graduate):
+  
+app/controllers/api/v1/graduates.rb:9:in `block (2 levels) in <class:Graduates>'
+  Rendering /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.2ms)
+  Rendered /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (106.1ms)
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateGraduates (20170818095146)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "graduates" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170818095146"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-08-18 09:51:50.346010"], ["updated_at", "2017-08-18 09:51:50.346010"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 1"], ["created_at", "2017-08-18 09:52:37.872948"], ["updated_at", "2017-08-18 09:52:37.872948"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 2"], ["created_at", "2017-08-18 09:52:37.876017"], ["updated_at", "2017-08-18 09:52:37.876017"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 3"], ["created_at", "2017-08-18 09:52:37.878277"], ["updated_at", "2017-08-18 09:52:37.878277"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 4"], ["created_at", "2017-08-18 09:52:37.880773"], ["updated_at", "2017-08-18 09:52:37.880773"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 5"], ["created_at", "2017-08-18 09:52:37.883487"], ["updated_at", "2017-08-18 09:52:37.883487"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 6"], ["created_at", "2017-08-18 09:52:37.886021"], ["updated_at", "2017-08-18 09:52:37.886021"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 7"], ["created_at", "2017-08-18 09:52:37.888723"], ["updated_at", "2017-08-18 09:52:37.888723"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 8"], ["created_at", "2017-08-18 09:52:37.891889"], ["updated_at", "2017-08-18 09:52:37.891889"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 9"], ["created_at", "2017-08-18 09:52:37.894260"], ["updated_at", "2017-08-18 09:52:37.894260"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 10"], ["created_at", "2017-08-18 09:52:37.896644"], ["updated_at", "2017-08-18 09:52:37.896644"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 11"], ["created_at", "2017-08-18 09:52:37.899300"], ["updated_at", "2017-08-18 09:52:37.899300"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 12"], ["created_at", "2017-08-18 09:52:37.904997"], ["updated_at", "2017-08-18 09:52:37.904997"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 13"], ["created_at", "2017-08-18 09:52:37.907340"], ["updated_at", "2017-08-18 09:52:37.907340"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 14"], ["created_at", "2017-08-18 09:52:37.910205"], ["updated_at", "2017-08-18 09:52:37.910205"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 15"], ["created_at", "2017-08-18 09:52:37.913554"], ["updated_at", "2017-08-18 09:52:37.913554"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 16"], ["created_at", "2017-08-18 09:52:37.916195"], ["updated_at", "2017-08-18 09:52:37.916195"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 17"], ["created_at", "2017-08-18 09:52:37.919213"], ["updated_at", "2017-08-18 09:52:37.919213"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 18"], ["created_at", "2017-08-18 09:52:37.921878"], ["updated_at", "2017-08-18 09:52:37.921878"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 19"], ["created_at", "2017-08-18 09:52:37.924500"], ["updated_at", "2017-08-18 09:52:37.924500"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 20"], ["created_at", "2017-08-18 09:52:37.927381"], ["updated_at", "2017-08-18 09:52:37.927381"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 21"], ["created_at", "2017-08-18 09:52:37.930255"], ["updated_at", "2017-08-18 09:52:37.930255"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 22"], ["created_at", "2017-08-18 09:52:37.932937"], ["updated_at", "2017-08-18 09:52:37.932937"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 23"], ["created_at", "2017-08-18 09:52:37.935610"], ["updated_at", "2017-08-18 09:52:37.935610"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 24"], ["created_at", "2017-08-18 09:52:37.938278"], ["updated_at", "2017-08-18 09:52:37.938278"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 25"], ["created_at", "2017-08-18 09:52:37.941565"], ["updated_at", "2017-08-18 09:52:37.941565"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 26"], ["created_at", "2017-08-18 09:52:37.944052"], ["updated_at", "2017-08-18 09:52:37.944052"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 27"], ["created_at", "2017-08-18 09:52:37.946833"], ["updated_at", "2017-08-18 09:52:37.946833"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 28"], ["created_at", "2017-08-18 09:52:37.949566"], ["updated_at", "2017-08-18 09:52:37.949566"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 29"], ["created_at", "2017-08-18 09:52:37.952047"], ["updated_at", "2017-08-18 09:52:37.952047"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 30"], ["created_at", "2017-08-18 09:52:37.954939"], ["updated_at", "2017-08-18 09:52:37.954939"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 31"], ["created_at", "2017-08-18 09:52:37.957752"], ["updated_at", "2017-08-18 09:52:37.957752"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 32"], ["created_at", "2017-08-18 09:52:37.960363"], ["updated_at", "2017-08-18 09:52:37.960363"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 33"], ["created_at", "2017-08-18 09:52:37.962818"], ["updated_at", "2017-08-18 09:52:37.962818"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 34"], ["created_at", "2017-08-18 09:52:37.965405"], ["updated_at", "2017-08-18 09:52:37.965405"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 35"], ["created_at", "2017-08-18 09:52:37.968003"], ["updated_at", "2017-08-18 09:52:37.968003"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 36"], ["created_at", "2017-08-18 09:52:37.970643"], ["updated_at", "2017-08-18 09:52:37.970643"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 37"], ["created_at", "2017-08-18 09:52:37.973370"], ["updated_at", "2017-08-18 09:52:37.973370"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 38"], ["created_at", "2017-08-18 09:52:37.975840"], ["updated_at", "2017-08-18 09:52:37.975840"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 39"], ["created_at", "2017-08-18 09:52:37.978569"], ["updated_at", "2017-08-18 09:52:37.978569"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 40"], ["created_at", "2017-08-18 09:52:37.981118"], ["updated_at", "2017-08-18 09:52:37.981118"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 41"], ["created_at", "2017-08-18 09:52:37.983541"], ["updated_at", "2017-08-18 09:52:37.983541"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 42"], ["created_at", "2017-08-18 09:52:37.986627"], ["updated_at", "2017-08-18 09:52:37.986627"]]
+  [1m[35m (18.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 43"], ["created_at", "2017-08-18 09:52:38.006230"], ["updated_at", "2017-08-18 09:52:38.006230"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 44"], ["created_at", "2017-08-18 09:52:38.009014"], ["updated_at", "2017-08-18 09:52:38.009014"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 45"], ["created_at", "2017-08-18 09:52:38.012023"], ["updated_at", "2017-08-18 09:52:38.012023"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 46"], ["created_at", "2017-08-18 09:52:38.014551"], ["updated_at", "2017-08-18 09:52:38.014551"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 47"], ["created_at", "2017-08-18 09:52:38.017240"], ["updated_at", "2017-08-18 09:52:38.017240"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 48"], ["created_at", "2017-08-18 09:52:38.019908"], ["updated_at", "2017-08-18 09:52:38.019908"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 49"], ["created_at", "2017-08-18 09:52:38.022887"], ["updated_at", "2017-08-18 09:52:38.022887"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 50"], ["created_at", "2017-08-18 09:52:38.025269"], ["updated_at", "2017-08-18 09:52:38.025269"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 51"], ["created_at", "2017-08-18 09:52:38.027957"], ["updated_at", "2017-08-18 09:52:38.027957"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 52"], ["created_at", "2017-08-18 09:52:38.030530"], ["updated_at", "2017-08-18 09:52:38.030530"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 53"], ["created_at", "2017-08-18 09:52:38.033246"], ["updated_at", "2017-08-18 09:52:38.033246"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 54"], ["created_at", "2017-08-18 09:52:38.035858"], ["updated_at", "2017-08-18 09:52:38.035858"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 55"], ["created_at", "2017-08-18 09:52:38.038636"], ["updated_at", "2017-08-18 09:52:38.038636"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 56"], ["created_at", "2017-08-18 09:52:38.041111"], ["updated_at", "2017-08-18 09:52:38.041111"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 57"], ["created_at", "2017-08-18 09:52:38.043758"], ["updated_at", "2017-08-18 09:52:38.043758"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 58"], ["created_at", "2017-08-18 09:52:38.047044"], ["updated_at", "2017-08-18 09:52:38.047044"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 59"], ["created_at", "2017-08-18 09:52:38.049804"], ["updated_at", "2017-08-18 09:52:38.049804"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 60"], ["created_at", "2017-08-18 09:52:38.052656"], ["updated_at", "2017-08-18 09:52:38.052656"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 61"], ["created_at", "2017-08-18 09:52:38.055289"], ["updated_at", "2017-08-18 09:52:38.055289"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 62"], ["created_at", "2017-08-18 09:52:38.058153"], ["updated_at", "2017-08-18 09:52:38.058153"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 63"], ["created_at", "2017-08-18 09:52:38.061102"], ["updated_at", "2017-08-18 09:52:38.061102"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 64"], ["created_at", "2017-08-18 09:52:38.063965"], ["updated_at", "2017-08-18 09:52:38.063965"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 65"], ["created_at", "2017-08-18 09:52:38.066706"], ["updated_at", "2017-08-18 09:52:38.066706"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 66"], ["created_at", "2017-08-18 09:52:38.069132"], ["updated_at", "2017-08-18 09:52:38.069132"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 67"], ["created_at", "2017-08-18 09:52:38.072432"], ["updated_at", "2017-08-18 09:52:38.072432"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 68"], ["created_at", "2017-08-18 09:52:38.075250"], ["updated_at", "2017-08-18 09:52:38.075250"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 69"], ["created_at", "2017-08-18 09:52:38.078764"], ["updated_at", "2017-08-18 09:52:38.078764"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 70"], ["created_at", "2017-08-18 09:52:38.082332"], ["updated_at", "2017-08-18 09:52:38.082332"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 71"], ["created_at", "2017-08-18 09:52:38.084996"], ["updated_at", "2017-08-18 09:52:38.084996"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 72"], ["created_at", "2017-08-18 09:52:38.087929"], ["updated_at", "2017-08-18 09:52:38.087929"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 73"], ["created_at", "2017-08-18 09:52:38.090950"], ["updated_at", "2017-08-18 09:52:38.090950"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 74"], ["created_at", "2017-08-18 09:52:38.093283"], ["updated_at", "2017-08-18 09:52:38.093283"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 75"], ["created_at", "2017-08-18 09:52:38.096071"], ["updated_at", "2017-08-18 09:52:38.096071"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 76"], ["created_at", "2017-08-18 09:52:38.099569"], ["updated_at", "2017-08-18 09:52:38.099569"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 77"], ["created_at", "2017-08-18 09:52:38.103246"], ["updated_at", "2017-08-18 09:52:38.103246"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 78"], ["created_at", "2017-08-18 09:52:38.105668"], ["updated_at", "2017-08-18 09:52:38.105668"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 79"], ["created_at", "2017-08-18 09:52:38.108573"], ["updated_at", "2017-08-18 09:52:38.108573"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 80"], ["created_at", "2017-08-18 09:52:38.111263"], ["updated_at", "2017-08-18 09:52:38.111263"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 81"], ["created_at", "2017-08-18 09:52:38.113887"], ["updated_at", "2017-08-18 09:52:38.113887"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 82"], ["created_at", "2017-08-18 09:52:38.116651"], ["updated_at", "2017-08-18 09:52:38.116651"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 83"], ["created_at", "2017-08-18 09:52:38.119516"], ["updated_at", "2017-08-18 09:52:38.119516"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 84"], ["created_at", "2017-08-18 09:52:38.123152"], ["updated_at", "2017-08-18 09:52:38.123152"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 85"], ["created_at", "2017-08-18 09:52:38.126146"], ["updated_at", "2017-08-18 09:52:38.126146"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 86"], ["created_at", "2017-08-18 09:52:38.128840"], ["updated_at", "2017-08-18 09:52:38.128840"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 87"], ["created_at", "2017-08-18 09:52:38.131905"], ["updated_at", "2017-08-18 09:52:38.131905"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 88"], ["created_at", "2017-08-18 09:52:38.135196"], ["updated_at", "2017-08-18 09:52:38.135196"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 89"], ["created_at", "2017-08-18 09:52:38.138018"], ["updated_at", "2017-08-18 09:52:38.138018"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 90"], ["created_at", "2017-08-18 09:52:38.140896"], ["updated_at", "2017-08-18 09:52:38.140896"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 91"], ["created_at", "2017-08-18 09:52:38.143728"], ["updated_at", "2017-08-18 09:52:38.143728"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 92"], ["created_at", "2017-08-18 09:52:38.146779"], ["updated_at", "2017-08-18 09:52:38.146779"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 93"], ["created_at", "2017-08-18 09:52:38.149394"], ["updated_at", "2017-08-18 09:52:38.149394"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 94"], ["created_at", "2017-08-18 09:52:38.152212"], ["updated_at", "2017-08-18 09:52:38.152212"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 95"], ["created_at", "2017-08-18 09:52:38.155021"], ["updated_at", "2017-08-18 09:52:38.155021"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 96"], ["created_at", "2017-08-18 09:52:38.157889"], ["updated_at", "2017-08-18 09:52:38.157889"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 97"], ["created_at", "2017-08-18 09:52:38.161633"], ["updated_at", "2017-08-18 09:52:38.161633"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 98"], ["created_at", "2017-08-18 09:52:38.164467"], ["updated_at", "2017-08-18 09:52:38.164467"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 99"], ["created_at", "2017-08-18 09:52:38.167310"], ["updated_at", "2017-08-18 09:52:38.167310"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 100"], ["created_at", "2017-08-18 09:52:38.170776"], ["updated_at", "2017-08-18 09:52:38.170776"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/api/v1/graduates" for 127.0.0.1 at 2017-08-18 15:22:49 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mGraduate Load (0.4ms)[0m  [1m[34mSELECT "graduates".* FROM "graduates"[0m
+No serializer found for resource: #<Graduate id: 1, name: "Graduate 1", created_at: "2017-08-18 09:52:37", updated_at: "2017-08-18 09:52:37">
+  
+UncaughtThrowError (uncaught throw :no_serializer):
+  
+active_model_serializers (0.10.6) lib/active_model/serializer/collection_serializer.rb:80:in `throw'
+active_model_serializers (0.10.6) lib/active_model/serializer/collection_serializer.rb:80:in `serializer_from_resource'
+active_model_serializers (0.10.6) lib/active_model/serializer/collection_serializer.rb:69:in `block in serializers_from_resources'
+activerecord (5.0.5) lib/active_record/relation/delegation.rb:38:in `map'
+activerecord (5.0.5) lib/active_record/relation/delegation.rb:38:in `map'
+active_model_serializers (0.10.6) lib/active_model/serializer/collection_serializer.rb:68:in `serializers_from_resources'
+active_model_serializers (0.10.6) lib/active_model/serializer/collection_serializer.rb:13:in `initialize'
+grape-active_model_serializers (1.5.1) lib/grape-active_model_serializers/serializer_resolver.rb:10:in `new'
+grape-active_model_serializers (1.5.1) lib/grape-active_model_serializers/serializer_resolver.rb:10:in `serializer'
+grape-active_model_serializers (1.5.1) lib/grape-active_model_serializers/formatter.rb:27:in `fetch_serializer'
+grape-active_model_serializers (1.5.1) lib/grape-active_model_serializers/formatter.rb:7:in `call'
+grape (0.14.0) lib/grape/middleware/formatter.rb:43:in `block in build_formatted_response'
+grape (0.14.0) lib/grape/middleware/formatter.rb:43:in `collect'
+grape (0.14.0) lib/grape/middleware/formatter.rb:43:in `build_formatted_response'
+grape (0.14.0) lib/grape/middleware/formatter.rb:27:in `after'
+grape (0.14.0) lib/grape/middleware/base.rb:26:in `call!'
+grape (0.14.0) lib/grape/middleware/base.rb:19:in `call'
+grape (0.14.0) lib/grape/middleware/base.rb:25:in `call!'
+grape (0.14.0) lib/grape/middleware/base.rb:19:in `call'
+grape (0.14.0) lib/grape/middleware/error.rb:27:in `block in call!'
+grape (0.14.0) lib/grape/middleware/error.rb:26:in `catch'
+grape (0.14.0) lib/grape/middleware/error.rb:26:in `call!'
+grape (0.14.0) lib/grape/middleware/base.rb:19:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+grape (0.14.0) lib/grape/endpoint.rb:215:in `call!'
+grape (0.14.0) lib/grape/endpoint.rb:209:in `call'
+rack-mount (0.8.3) lib/rack/mount/route_set.rb:152:in `block in call'
+rack-mount (0.8.3) lib/rack/mount/code_generation.rb:96:in `block in recognize'
+rack-mount (0.8.3) lib/rack/mount/code_generation.rb:68:in `optimized_each'
+rack-mount (0.8.3) lib/rack/mount/code_generation.rb:95:in `recognize'
+rack-mount (0.8.3) lib/rack/mount/route_set.rb:141:in `call'
+grape (0.14.0) lib/grape/api.rb:114:in `call'
+grape (0.14.0) lib/grape/api.rb:44:in `call!'
+grape (0.14.0) lib/grape/api.rb:39:in `call'
+actionpack (5.0.5) lib/action_dispatch/routing/mapper.rb:17:in `block in <class:Constraints>'
+actionpack (5.0.5) lib/action_dispatch/routing/mapper.rb:46:in `serve'
+actionpack (5.0.5) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.5) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.5) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.5) lib/action_dispatch/routing/route_set.rb:727:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.5) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.5) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.5) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.5) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.5) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.5) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.1ms)
+  Rendering /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.2ms)
+  Rendered /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (87.7ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mSQL (13.5ms)[0m  [1m[31mDELETE FROM "graduates"[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 1"], ["created_at", "2017-08-18 09:55:12.270479"], ["updated_at", "2017-08-18 09:55:12.270479"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 2"], ["created_at", "2017-08-18 09:55:12.273479"], ["updated_at", "2017-08-18 09:55:12.273479"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 3"], ["created_at", "2017-08-18 09:55:12.276321"], ["updated_at", "2017-08-18 09:55:12.276321"]]
+  [1m[35m (20.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 4"], ["created_at", "2017-08-18 09:55:12.298693"], ["updated_at", "2017-08-18 09:55:12.298693"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 5"], ["created_at", "2017-08-18 09:55:12.301329"], ["updated_at", "2017-08-18 09:55:12.301329"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 6"], ["created_at", "2017-08-18 09:55:12.303971"], ["updated_at", "2017-08-18 09:55:12.303971"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 7"], ["created_at", "2017-08-18 09:55:12.306640"], ["updated_at", "2017-08-18 09:55:12.306640"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 8"], ["created_at", "2017-08-18 09:55:12.309039"], ["updated_at", "2017-08-18 09:55:12.309039"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 9"], ["created_at", "2017-08-18 09:55:12.311701"], ["updated_at", "2017-08-18 09:55:12.311701"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 10"], ["created_at", "2017-08-18 09:55:12.314447"], ["updated_at", "2017-08-18 09:55:12.314447"]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 11"], ["created_at", "2017-08-18 09:55:12.319020"], ["updated_at", "2017-08-18 09:55:12.319020"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 12"], ["created_at", "2017-08-18 09:55:12.322337"], ["updated_at", "2017-08-18 09:55:12.322337"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 13"], ["created_at", "2017-08-18 09:55:12.324992"], ["updated_at", "2017-08-18 09:55:12.324992"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 14"], ["created_at", "2017-08-18 09:55:12.327680"], ["updated_at", "2017-08-18 09:55:12.327680"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 15"], ["created_at", "2017-08-18 09:55:12.330653"], ["updated_at", "2017-08-18 09:55:12.330653"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 16"], ["created_at", "2017-08-18 09:55:12.333456"], ["updated_at", "2017-08-18 09:55:12.333456"]]
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 17"], ["created_at", "2017-08-18 09:55:12.337583"], ["updated_at", "2017-08-18 09:55:12.337583"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 18"], ["created_at", "2017-08-18 09:55:12.340610"], ["updated_at", "2017-08-18 09:55:12.340610"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 19"], ["created_at", "2017-08-18 09:55:12.345514"], ["updated_at", "2017-08-18 09:55:12.345514"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 20"], ["created_at", "2017-08-18 09:55:12.348363"], ["updated_at", "2017-08-18 09:55:12.348363"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 21"], ["created_at", "2017-08-18 09:55:12.353233"], ["updated_at", "2017-08-18 09:55:12.353233"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 22"], ["created_at", "2017-08-18 09:55:12.357961"], ["updated_at", "2017-08-18 09:55:12.357961"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 23"], ["created_at", "2017-08-18 09:55:12.362618"], ["updated_at", "2017-08-18 09:55:12.362618"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 24"], ["created_at", "2017-08-18 09:55:12.365214"], ["updated_at", "2017-08-18 09:55:12.365214"]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 25"], ["created_at", "2017-08-18 09:55:12.369552"], ["updated_at", "2017-08-18 09:55:12.369552"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 26"], ["created_at", "2017-08-18 09:55:12.372393"], ["updated_at", "2017-08-18 09:55:12.372393"]]
+  [1m[35m (5.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 27"], ["created_at", "2017-08-18 09:55:12.379241"], ["updated_at", "2017-08-18 09:55:12.379241"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 28"], ["created_at", "2017-08-18 09:55:12.383088"], ["updated_at", "2017-08-18 09:55:12.383088"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 29"], ["created_at", "2017-08-18 09:55:12.385766"], ["updated_at", "2017-08-18 09:55:12.385766"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 30"], ["created_at", "2017-08-18 09:55:12.388264"], ["updated_at", "2017-08-18 09:55:12.388264"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 31"], ["created_at", "2017-08-18 09:55:12.391400"], ["updated_at", "2017-08-18 09:55:12.391400"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 32"], ["created_at", "2017-08-18 09:55:12.394402"], ["updated_at", "2017-08-18 09:55:12.394402"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 33"], ["created_at", "2017-08-18 09:55:12.398972"], ["updated_at", "2017-08-18 09:55:12.398972"]]
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 34"], ["created_at", "2017-08-18 09:55:12.403001"], ["updated_at", "2017-08-18 09:55:12.403001"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 35"], ["created_at", "2017-08-18 09:55:12.405645"], ["updated_at", "2017-08-18 09:55:12.405645"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 36"], ["created_at", "2017-08-18 09:55:12.408615"], ["updated_at", "2017-08-18 09:55:12.408615"]]
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 37"], ["created_at", "2017-08-18 09:55:12.413697"], ["updated_at", "2017-08-18 09:55:12.413697"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 38"], ["created_at", "2017-08-18 09:55:12.416459"], ["updated_at", "2017-08-18 09:55:12.416459"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 39"], ["created_at", "2017-08-18 09:55:12.419398"], ["updated_at", "2017-08-18 09:55:12.419398"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 40"], ["created_at", "2017-08-18 09:55:12.424097"], ["updated_at", "2017-08-18 09:55:12.424097"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 41"], ["created_at", "2017-08-18 09:55:12.426881"], ["updated_at", "2017-08-18 09:55:12.426881"]]
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 42"], ["created_at", "2017-08-18 09:55:12.431073"], ["updated_at", "2017-08-18 09:55:12.431073"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 43"], ["created_at", "2017-08-18 09:55:12.435326"], ["updated_at", "2017-08-18 09:55:12.435326"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 44"], ["created_at", "2017-08-18 09:55:12.440445"], ["updated_at", "2017-08-18 09:55:12.440445"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 45"], ["created_at", "2017-08-18 09:55:12.443284"], ["updated_at", "2017-08-18 09:55:12.443284"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 46"], ["created_at", "2017-08-18 09:55:12.445754"], ["updated_at", "2017-08-18 09:55:12.445754"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 47"], ["created_at", "2017-08-18 09:55:12.450424"], ["updated_at", "2017-08-18 09:55:12.450424"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 48"], ["created_at", "2017-08-18 09:55:12.455086"], ["updated_at", "2017-08-18 09:55:12.455086"]]
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 49"], ["created_at", "2017-08-18 09:55:12.460130"], ["updated_at", "2017-08-18 09:55:12.460130"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 50"], ["created_at", "2017-08-18 09:55:12.464585"], ["updated_at", "2017-08-18 09:55:12.464585"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 51"], ["created_at", "2017-08-18 09:55:12.467429"], ["updated_at", "2017-08-18 09:55:12.467429"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 52"], ["created_at", "2017-08-18 09:55:12.472206"], ["updated_at", "2017-08-18 09:55:12.472206"]]
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 53"], ["created_at", "2017-08-18 09:55:12.478034"], ["updated_at", "2017-08-18 09:55:12.478034"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 54"], ["created_at", "2017-08-18 09:55:12.482912"], ["updated_at", "2017-08-18 09:55:12.482912"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 55"], ["created_at", "2017-08-18 09:55:12.485551"], ["updated_at", "2017-08-18 09:55:12.485551"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 56"], ["created_at", "2017-08-18 09:55:12.491931"], ["updated_at", "2017-08-18 09:55:12.491931"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 57"], ["created_at", "2017-08-18 09:55:12.496877"], ["updated_at", "2017-08-18 09:55:12.496877"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 58"], ["created_at", "2017-08-18 09:55:12.501541"], ["updated_at", "2017-08-18 09:55:12.501541"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 59"], ["created_at", "2017-08-18 09:55:12.506466"], ["updated_at", "2017-08-18 09:55:12.506466"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 60"], ["created_at", "2017-08-18 09:55:12.509565"], ["updated_at", "2017-08-18 09:55:12.509565"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 61"], ["created_at", "2017-08-18 09:55:12.514481"], ["updated_at", "2017-08-18 09:55:12.514481"]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 62"], ["created_at", "2017-08-18 09:55:12.519206"], ["updated_at", "2017-08-18 09:55:12.519206"]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 63"], ["created_at", "2017-08-18 09:55:12.524364"], ["updated_at", "2017-08-18 09:55:12.524364"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 64"], ["created_at", "2017-08-18 09:55:12.529119"], ["updated_at", "2017-08-18 09:55:12.529119"]]
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 65"], ["created_at", "2017-08-18 09:55:12.534254"], ["updated_at", "2017-08-18 09:55:12.534254"]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 66"], ["created_at", "2017-08-18 09:55:12.539656"], ["updated_at", "2017-08-18 09:55:12.539656"]]
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 67"], ["created_at", "2017-08-18 09:55:12.544755"], ["updated_at", "2017-08-18 09:55:12.544755"]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 68"], ["created_at", "2017-08-18 09:55:12.549621"], ["updated_at", "2017-08-18 09:55:12.549621"]]
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 69"], ["created_at", "2017-08-18 09:55:12.554462"], ["updated_at", "2017-08-18 09:55:12.554462"]]
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 70"], ["created_at", "2017-08-18 09:55:12.559799"], ["updated_at", "2017-08-18 09:55:12.559799"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 71"], ["created_at", "2017-08-18 09:55:12.564627"], ["updated_at", "2017-08-18 09:55:12.564627"]]
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 72"], ["created_at", "2017-08-18 09:55:12.569779"], ["updated_at", "2017-08-18 09:55:12.569779"]]
+  [1m[35m (3.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 73"], ["created_at", "2017-08-18 09:55:12.574838"], ["updated_at", "2017-08-18 09:55:12.574838"]]
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 74"], ["created_at", "2017-08-18 09:55:12.581060"], ["updated_at", "2017-08-18 09:55:12.581060"]]
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 75"], ["created_at", "2017-08-18 09:55:12.586571"], ["updated_at", "2017-08-18 09:55:12.586571"]]
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 76"], ["created_at", "2017-08-18 09:55:12.591852"], ["updated_at", "2017-08-18 09:55:12.591852"]]
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 77"], ["created_at", "2017-08-18 09:55:12.596790"], ["updated_at", "2017-08-18 09:55:12.596790"]]
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 78"], ["created_at", "2017-08-18 09:55:12.602045"], ["updated_at", "2017-08-18 09:55:12.602045"]]
+  [1m[35m (3.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 79"], ["created_at", "2017-08-18 09:55:12.609251"], ["updated_at", "2017-08-18 09:55:12.609251"]]
+  [1m[35m (6.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 80"], ["created_at", "2017-08-18 09:55:12.617649"], ["updated_at", "2017-08-18 09:55:12.617649"]]
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 81"], ["created_at", "2017-08-18 09:55:12.623654"], ["updated_at", "2017-08-18 09:55:12.623654"]]
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 82"], ["created_at", "2017-08-18 09:55:12.629263"], ["updated_at", "2017-08-18 09:55:12.629263"]]
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 83"], ["created_at", "2017-08-18 09:55:12.635448"], ["updated_at", "2017-08-18 09:55:12.635448"]]
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 84"], ["created_at", "2017-08-18 09:55:12.641157"], ["updated_at", "2017-08-18 09:55:12.641157"]]
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 85"], ["created_at", "2017-08-18 09:55:12.646435"], ["updated_at", "2017-08-18 09:55:12.646435"]]
+  [1m[35m (15.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 86"], ["created_at", "2017-08-18 09:55:12.663648"], ["updated_at", "2017-08-18 09:55:12.663648"]]
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 87"], ["created_at", "2017-08-18 09:55:12.669243"], ["updated_at", "2017-08-18 09:55:12.669243"]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 88"], ["created_at", "2017-08-18 09:55:12.674248"], ["updated_at", "2017-08-18 09:55:12.674248"]]
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 89"], ["created_at", "2017-08-18 09:55:12.679614"], ["updated_at", "2017-08-18 09:55:12.679614"]]
+  [1m[35m (12.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 90"], ["created_at", "2017-08-18 09:55:12.694000"], ["updated_at", "2017-08-18 09:55:12.694000"]]
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 91"], ["created_at", "2017-08-18 09:55:12.699608"], ["updated_at", "2017-08-18 09:55:12.699608"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 92"], ["created_at", "2017-08-18 09:55:12.704303"], ["updated_at", "2017-08-18 09:55:12.704303"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 93"], ["created_at", "2017-08-18 09:55:12.709179"], ["updated_at", "2017-08-18 09:55:12.709179"]]
+  [1m[35m (3.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 94"], ["created_at", "2017-08-18 09:55:12.714367"], ["updated_at", "2017-08-18 09:55:12.714367"]]
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 95"], ["created_at", "2017-08-18 09:55:12.720026"], ["updated_at", "2017-08-18 09:55:12.720026"]]
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 96"], ["created_at", "2017-08-18 09:55:12.725788"], ["updated_at", "2017-08-18 09:55:12.725788"]]
+  [1m[35m (15.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 97"], ["created_at", "2017-08-18 09:55:12.743122"], ["updated_at", "2017-08-18 09:55:12.743122"]]
+  [1m[35m (15.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 98"], ["created_at", "2017-08-18 09:55:12.759825"], ["updated_at", "2017-08-18 09:55:12.759825"]]
+  [1m[35m (15.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.5ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 99"], ["created_at", "2017-08-18 09:55:12.776934"], ["updated_at", "2017-08-18 09:55:12.776934"]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 100"], ["created_at", "2017-08-18 09:55:12.784481"], ["updated_at", "2017-08-18 09:55:12.784481"]]
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/api/v1/graduates" for 127.0.0.1 at 2017-08-18 15:27:52 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mGraduate Load (10.7ms)[0m  [1m[34mSELECT "graduates".* FROM "graduates"[0m
+No serializer found for resource: #<Graduate id: 101, name: "Graduate 1", created_at: "2017-08-18 09:55:12", updated_at: "2017-08-18 09:55:12">
+  
+UncaughtThrowError (uncaught throw :no_serializer):
+  
+active_model_serializers (0.10.6) lib/active_model/serializer/collection_serializer.rb:80:in `throw'
+active_model_serializers (0.10.6) lib/active_model/serializer/collection_serializer.rb:80:in `serializer_from_resource'
+active_model_serializers (0.10.6) lib/active_model/serializer/collection_serializer.rb:69:in `block in serializers_from_resources'
+activerecord (5.0.5) lib/active_record/relation/delegation.rb:38:in `map'
+activerecord (5.0.5) lib/active_record/relation/delegation.rb:38:in `map'
+active_model_serializers (0.10.6) lib/active_model/serializer/collection_serializer.rb:68:in `serializers_from_resources'
+active_model_serializers (0.10.6) lib/active_model/serializer/collection_serializer.rb:13:in `initialize'
+grape-active_model_serializers (1.5.1) lib/grape-active_model_serializers/serializer_resolver.rb:10:in `new'
+grape-active_model_serializers (1.5.1) lib/grape-active_model_serializers/serializer_resolver.rb:10:in `serializer'
+grape-active_model_serializers (1.5.1) lib/grape-active_model_serializers/formatter.rb:27:in `fetch_serializer'
+grape-active_model_serializers (1.5.1) lib/grape-active_model_serializers/formatter.rb:7:in `call'
+grape (0.14.0) lib/grape/middleware/formatter.rb:43:in `block in build_formatted_response'
+grape (0.14.0) lib/grape/middleware/formatter.rb:43:in `collect'
+grape (0.14.0) lib/grape/middleware/formatter.rb:43:in `build_formatted_response'
+grape (0.14.0) lib/grape/middleware/formatter.rb:27:in `after'
+grape (0.14.0) lib/grape/middleware/base.rb:26:in `call!'
+grape (0.14.0) lib/grape/middleware/base.rb:19:in `call'
+grape (0.14.0) lib/grape/middleware/base.rb:25:in `call!'
+grape (0.14.0) lib/grape/middleware/base.rb:19:in `call'
+grape (0.14.0) lib/grape/middleware/error.rb:27:in `block in call!'
+grape (0.14.0) lib/grape/middleware/error.rb:26:in `catch'
+grape (0.14.0) lib/grape/middleware/error.rb:26:in `call!'
+grape (0.14.0) lib/grape/middleware/base.rb:19:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+grape (0.14.0) lib/grape/endpoint.rb:215:in `call!'
+grape (0.14.0) lib/grape/endpoint.rb:209:in `call'
+rack-mount (0.8.3) lib/rack/mount/route_set.rb:152:in `block in call'
+rack-mount (0.8.3) lib/rack/mount/code_generation.rb:96:in `block in recognize'
+rack-mount (0.8.3) lib/rack/mount/code_generation.rb:68:in `optimized_each'
+rack-mount (0.8.3) lib/rack/mount/code_generation.rb:95:in `recognize'
+rack-mount (0.8.3) lib/rack/mount/route_set.rb:141:in `call'
+grape (0.14.0) lib/grape/api.rb:114:in `call'
+grape (0.14.0) lib/grape/api.rb:44:in `call!'
+grape (0.14.0) lib/grape/api.rb:39:in `call'
+actionpack (5.0.5) lib/action_dispatch/routing/mapper.rb:17:in `block in <class:Constraints>'
+actionpack (5.0.5) lib/action_dispatch/routing/mapper.rb:46:in `serve'
+actionpack (5.0.5) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.5) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.5) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.5) lib/action_dispatch/routing/route_set.rb:727:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.5) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.5) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.5) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.5) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.5) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.5) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.1ms)
+  Rendering /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.9ms)
+  Rendered /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (116.5ms)
+Started GET "/api/v1/graduates" for 127.0.0.1 at 2017-08-18 15:34:27 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (11.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mGraduate Load (1.0ms)[0m  [1m[34mSELECT "graduates".* FROM "graduates"[0m
+Started GET "/api/v1/graduates" for 127.0.0.1 at 2017-08-18 15:34:55 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (20.9ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mGraduate Load (1.0ms)[0m  [1m[34mSELECT "graduates".* FROM "graduates"[0m
+Started GET "/api/v1/graduates/101" for 127.0.0.1 at 2017-08-18 15:37:59 +0530
+  [1m[36mGraduate Load (17.5ms)[0m  [1m[34mSELECT  "graduates".* FROM "graduates" WHERE "graduates"."id" = ? ORDER BY "graduates"."id" ASC LIMIT ?[0m  [["id", 101], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Load (13.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+DEPRECATION WARNING: Passing #original_exception is deprecated and has no effect. Exceptions will automatically capture the original exception. (called from load at /Users/bhaskar/.rvm/gems/ruby-2.3.1/bin/rake:23)
+  [1m[35m (1.7ms)[0m  [1m[35mCREATE TABLE "graduates" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (1.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20170818095146)[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (16.9ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-08-18 10:08:28.754771"], ["updated_at", "2017-08-18 10:08:28.754771"]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "graduates" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (1.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20170818095146)[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-08-18 10:08:28.787470"], ["updated_at", "2017-08-18 10:08:28.787470"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[31mDELETE FROM "graduates"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 1"], ["created_at", "2017-08-18 10:08:28.850115"], ["updated_at", "2017-08-18 10:08:28.850115"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 2"], ["created_at", "2017-08-18 10:08:28.853484"], ["updated_at", "2017-08-18 10:08:28.853484"]]
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 3"], ["created_at", "2017-08-18 10:08:28.857979"], ["updated_at", "2017-08-18 10:08:28.857979"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 4"], ["created_at", "2017-08-18 10:08:28.860515"], ["updated_at", "2017-08-18 10:08:28.860515"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 5"], ["created_at", "2017-08-18 10:08:28.863932"], ["updated_at", "2017-08-18 10:08:28.863932"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 6"], ["created_at", "2017-08-18 10:08:28.866572"], ["updated_at", "2017-08-18 10:08:28.866572"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 7"], ["created_at", "2017-08-18 10:08:28.869205"], ["updated_at", "2017-08-18 10:08:28.869205"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 8"], ["created_at", "2017-08-18 10:08:28.872527"], ["updated_at", "2017-08-18 10:08:28.872527"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 9"], ["created_at", "2017-08-18 10:08:28.875809"], ["updated_at", "2017-08-18 10:08:28.875809"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 10"], ["created_at", "2017-08-18 10:08:28.879396"], ["updated_at", "2017-08-18 10:08:28.879396"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 11"], ["created_at", "2017-08-18 10:08:28.882372"], ["updated_at", "2017-08-18 10:08:28.882372"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 12"], ["created_at", "2017-08-18 10:08:28.885260"], ["updated_at", "2017-08-18 10:08:28.885260"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 13"], ["created_at", "2017-08-18 10:08:28.888229"], ["updated_at", "2017-08-18 10:08:28.888229"]]
+  [1m[35m (26.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 14"], ["created_at", "2017-08-18 10:08:28.916828"], ["updated_at", "2017-08-18 10:08:28.916828"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 15"], ["created_at", "2017-08-18 10:08:28.919354"], ["updated_at", "2017-08-18 10:08:28.919354"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 16"], ["created_at", "2017-08-18 10:08:28.921573"], ["updated_at", "2017-08-18 10:08:28.921573"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 17"], ["created_at", "2017-08-18 10:08:28.923752"], ["updated_at", "2017-08-18 10:08:28.923752"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 18"], ["created_at", "2017-08-18 10:08:28.926127"], ["updated_at", "2017-08-18 10:08:28.926127"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 19"], ["created_at", "2017-08-18 10:08:28.928809"], ["updated_at", "2017-08-18 10:08:28.928809"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 20"], ["created_at", "2017-08-18 10:08:28.931738"], ["updated_at", "2017-08-18 10:08:28.931738"]]
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 21"], ["created_at", "2017-08-18 10:08:28.936794"], ["updated_at", "2017-08-18 10:08:28.936794"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 22"], ["created_at", "2017-08-18 10:08:28.941337"], ["updated_at", "2017-08-18 10:08:28.941337"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 23"], ["created_at", "2017-08-18 10:08:28.945203"], ["updated_at", "2017-08-18 10:08:28.945203"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 24"], ["created_at", "2017-08-18 10:08:28.949420"], ["updated_at", "2017-08-18 10:08:28.949420"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 25"], ["created_at", "2017-08-18 10:08:28.951957"], ["updated_at", "2017-08-18 10:08:28.951957"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 26"], ["created_at", "2017-08-18 10:08:28.954647"], ["updated_at", "2017-08-18 10:08:28.954647"]]
+  [1m[35m (58.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 27"], ["created_at", "2017-08-18 10:08:29.015879"], ["updated_at", "2017-08-18 10:08:29.015879"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 28"], ["created_at", "2017-08-18 10:08:29.018788"], ["updated_at", "2017-08-18 10:08:29.018788"]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 29"], ["created_at", "2017-08-18 10:08:29.023279"], ["updated_at", "2017-08-18 10:08:29.023279"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 30"], ["created_at", "2017-08-18 10:08:29.025696"], ["updated_at", "2017-08-18 10:08:29.025696"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 31"], ["created_at", "2017-08-18 10:08:29.030629"], ["updated_at", "2017-08-18 10:08:29.030629"]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 32"], ["created_at", "2017-08-18 10:08:29.035104"], ["updated_at", "2017-08-18 10:08:29.035104"]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 33"], ["created_at", "2017-08-18 10:08:29.041834"], ["updated_at", "2017-08-18 10:08:29.041834"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 34"], ["created_at", "2017-08-18 10:08:29.044231"], ["updated_at", "2017-08-18 10:08:29.044231"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 35"], ["created_at", "2017-08-18 10:08:29.048861"], ["updated_at", "2017-08-18 10:08:29.048861"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 36"], ["created_at", "2017-08-18 10:08:29.051759"], ["updated_at", "2017-08-18 10:08:29.051759"]]
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 37"], ["created_at", "2017-08-18 10:08:29.056059"], ["updated_at", "2017-08-18 10:08:29.056059"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 38"], ["created_at", "2017-08-18 10:08:29.058988"], ["updated_at", "2017-08-18 10:08:29.058988"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 39"], ["created_at", "2017-08-18 10:08:29.061859"], ["updated_at", "2017-08-18 10:08:29.061859"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 40"], ["created_at", "2017-08-18 10:08:29.064325"], ["updated_at", "2017-08-18 10:08:29.064325"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 41"], ["created_at", "2017-08-18 10:08:29.067181"], ["updated_at", "2017-08-18 10:08:29.067181"]]
+  [1m[35m (11.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 42"], ["created_at", "2017-08-18 10:08:29.080111"], ["updated_at", "2017-08-18 10:08:29.080111"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 43"], ["created_at", "2017-08-18 10:08:29.084695"], ["updated_at", "2017-08-18 10:08:29.084695"]]
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 44"], ["created_at", "2017-08-18 10:08:29.088832"], ["updated_at", "2017-08-18 10:08:29.088832"]]
+  [1m[35m (12.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 45"], ["created_at", "2017-08-18 10:08:29.103216"], ["updated_at", "2017-08-18 10:08:29.103216"]]
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 46"], ["created_at", "2017-08-18 10:08:29.107667"], ["updated_at", "2017-08-18 10:08:29.107667"]]
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 47"], ["created_at", "2017-08-18 10:08:29.113173"], ["updated_at", "2017-08-18 10:08:29.113173"]]
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 48"], ["created_at", "2017-08-18 10:08:29.119858"], ["updated_at", "2017-08-18 10:08:29.119858"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 49"], ["created_at", "2017-08-18 10:08:29.122540"], ["updated_at", "2017-08-18 10:08:29.122540"]]
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 50"], ["created_at", "2017-08-18 10:08:29.126543"], ["updated_at", "2017-08-18 10:08:29.126543"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 51"], ["created_at", "2017-08-18 10:08:29.129404"], ["updated_at", "2017-08-18 10:08:29.129404"]]
+  [1m[35m (3.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 52"], ["created_at", "2017-08-18 10:08:29.134556"], ["updated_at", "2017-08-18 10:08:29.134556"]]
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 53"], ["created_at", "2017-08-18 10:08:29.139990"], ["updated_at", "2017-08-18 10:08:29.139990"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 54"], ["created_at", "2017-08-18 10:08:29.144646"], ["updated_at", "2017-08-18 10:08:29.144646"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 55"], ["created_at", "2017-08-18 10:08:29.147241"], ["updated_at", "2017-08-18 10:08:29.147241"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 56"], ["created_at", "2017-08-18 10:08:29.150884"], ["updated_at", "2017-08-18 10:08:29.150884"]]
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (40.5ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 57"], ["created_at", "2017-08-18 10:08:29.158352"], ["updated_at", "2017-08-18 10:08:29.158352"]]
+  [1m[35m (74.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 58"], ["created_at", "2017-08-18 10:08:29.274380"], ["updated_at", "2017-08-18 10:08:29.274380"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 59"], ["created_at", "2017-08-18 10:08:29.277172"], ["updated_at", "2017-08-18 10:08:29.277172"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 60"], ["created_at", "2017-08-18 10:08:29.281984"], ["updated_at", "2017-08-18 10:08:29.281984"]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 61"], ["created_at", "2017-08-18 10:08:29.286983"], ["updated_at", "2017-08-18 10:08:29.286983"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 62"], ["created_at", "2017-08-18 10:08:29.290095"], ["updated_at", "2017-08-18 10:08:29.290095"]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 63"], ["created_at", "2017-08-18 10:08:29.295019"], ["updated_at", "2017-08-18 10:08:29.295019"]]
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 64"], ["created_at", "2017-08-18 10:08:29.300149"], ["updated_at", "2017-08-18 10:08:29.300149"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 65"], ["created_at", "2017-08-18 10:08:29.304973"], ["updated_at", "2017-08-18 10:08:29.304973"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 66"], ["created_at", "2017-08-18 10:08:29.308085"], ["updated_at", "2017-08-18 10:08:29.308085"]]
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 67"], ["created_at", "2017-08-18 10:08:29.313168"], ["updated_at", "2017-08-18 10:08:29.313168"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 68"], ["created_at", "2017-08-18 10:08:29.317921"], ["updated_at", "2017-08-18 10:08:29.317921"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 69"], ["created_at", "2017-08-18 10:08:29.322722"], ["updated_at", "2017-08-18 10:08:29.322722"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 70"], ["created_at", "2017-08-18 10:08:29.327825"], ["updated_at", "2017-08-18 10:08:29.327825"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 71"], ["created_at", "2017-08-18 10:08:29.331229"], ["updated_at", "2017-08-18 10:08:29.331229"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 72"], ["created_at", "2017-08-18 10:08:29.335924"], ["updated_at", "2017-08-18 10:08:29.335924"]]
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 73"], ["created_at", "2017-08-18 10:08:29.341014"], ["updated_at", "2017-08-18 10:08:29.341014"]]
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 74"], ["created_at", "2017-08-18 10:08:29.346198"], ["updated_at", "2017-08-18 10:08:29.346198"]]
+  [1m[35m (3.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 75"], ["created_at", "2017-08-18 10:08:29.351570"], ["updated_at", "2017-08-18 10:08:29.351570"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 76"], ["created_at", "2017-08-18 10:08:29.356312"], ["updated_at", "2017-08-18 10:08:29.356312"]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 77"], ["created_at", "2017-08-18 10:08:29.361192"], ["updated_at", "2017-08-18 10:08:29.361192"]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 78"], ["created_at", "2017-08-18 10:08:29.366219"], ["updated_at", "2017-08-18 10:08:29.366219"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 79"], ["created_at", "2017-08-18 10:08:29.371408"], ["updated_at", "2017-08-18 10:08:29.371408"]]
+  [1m[35m (3.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 80"], ["created_at", "2017-08-18 10:08:29.376820"], ["updated_at", "2017-08-18 10:08:29.376820"]]
+  [1m[35m (3.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 81"], ["created_at", "2017-08-18 10:08:29.382195"], ["updated_at", "2017-08-18 10:08:29.382195"]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 82"], ["created_at", "2017-08-18 10:08:29.387156"], ["updated_at", "2017-08-18 10:08:29.387156"]]
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 83"], ["created_at", "2017-08-18 10:08:29.392428"], ["updated_at", "2017-08-18 10:08:29.392428"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 84"], ["created_at", "2017-08-18 10:08:29.397415"], ["updated_at", "2017-08-18 10:08:29.397415"]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 85"], ["created_at", "2017-08-18 10:08:29.402390"], ["updated_at", "2017-08-18 10:08:29.402390"]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 86"], ["created_at", "2017-08-18 10:08:29.407805"], ["updated_at", "2017-08-18 10:08:29.407805"]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 87"], ["created_at", "2017-08-18 10:08:29.412797"], ["updated_at", "2017-08-18 10:08:29.412797"]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 88"], ["created_at", "2017-08-18 10:08:29.417879"], ["updated_at", "2017-08-18 10:08:29.417879"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 89"], ["created_at", "2017-08-18 10:08:29.422537"], ["updated_at", "2017-08-18 10:08:29.422537"]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 90"], ["created_at", "2017-08-18 10:08:29.427561"], ["updated_at", "2017-08-18 10:08:29.427561"]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 91"], ["created_at", "2017-08-18 10:08:29.432870"], ["updated_at", "2017-08-18 10:08:29.432870"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 92"], ["created_at", "2017-08-18 10:08:29.436234"], ["updated_at", "2017-08-18 10:08:29.436234"]]
+  [1m[35m (22.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 93"], ["created_at", "2017-08-18 10:08:29.460179"], ["updated_at", "2017-08-18 10:08:29.460179"]]
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 94"], ["created_at", "2017-08-18 10:08:29.465437"], ["updated_at", "2017-08-18 10:08:29.465437"]]
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 95"], ["created_at", "2017-08-18 10:08:29.477293"], ["updated_at", "2017-08-18 10:08:29.477293"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 96"], ["created_at", "2017-08-18 10:08:29.481942"], ["updated_at", "2017-08-18 10:08:29.481942"]]
+  [1m[35m (8.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 97"], ["created_at", "2017-08-18 10:08:29.491526"], ["updated_at", "2017-08-18 10:08:29.491526"]]
+  [1m[35m (83.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 98"], ["created_at", "2017-08-18 10:08:29.576227"], ["updated_at", "2017-08-18 10:08:29.576227"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 99"], ["created_at", "2017-08-18 10:08:29.581107"], ["updated_at", "2017-08-18 10:08:29.581107"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 100"], ["created_at", "2017-08-18 10:08:29.587053"], ["updated_at", "2017-08-18 10:08:29.587053"]]
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mSQL (5.8ms)[0m  [1m[31mDELETE FROM "graduates"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 1"], ["created_at", "2017-08-18 10:08:35.169385"], ["updated_at", "2017-08-18 10:08:35.169385"]]
+  [1m[35m (35.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 2"], ["created_at", "2017-08-18 10:08:35.210533"], ["updated_at", "2017-08-18 10:08:35.210533"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 3"], ["created_at", "2017-08-18 10:08:35.215456"], ["updated_at", "2017-08-18 10:08:35.215456"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 4"], ["created_at", "2017-08-18 10:08:35.220305"], ["updated_at", "2017-08-18 10:08:35.220305"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 5"], ["created_at", "2017-08-18 10:08:35.225483"], ["updated_at", "2017-08-18 10:08:35.225483"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 6"], ["created_at", "2017-08-18 10:08:35.230182"], ["updated_at", "2017-08-18 10:08:35.230182"]]
+  [1m[35m (3.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 7"], ["created_at", "2017-08-18 10:08:35.235357"], ["updated_at", "2017-08-18 10:08:35.235357"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 8"], ["created_at", "2017-08-18 10:08:35.238065"], ["updated_at", "2017-08-18 10:08:35.238065"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 9"], ["created_at", "2017-08-18 10:08:35.242829"], ["updated_at", "2017-08-18 10:08:35.242829"]]
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 10"], ["created_at", "2017-08-18 10:08:35.247983"], ["updated_at", "2017-08-18 10:08:35.247983"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 11"], ["created_at", "2017-08-18 10:08:35.250703"], ["updated_at", "2017-08-18 10:08:35.250703"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 12"], ["created_at", "2017-08-18 10:08:35.255471"], ["updated_at", "2017-08-18 10:08:35.255471"]]
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 13"], ["created_at", "2017-08-18 10:08:35.259803"], ["updated_at", "2017-08-18 10:08:35.259803"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 14"], ["created_at", "2017-08-18 10:08:35.264382"], ["updated_at", "2017-08-18 10:08:35.264382"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 15"], ["created_at", "2017-08-18 10:08:35.269253"], ["updated_at", "2017-08-18 10:08:35.269253"]]
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 16"], ["created_at", "2017-08-18 10:08:35.275640"], ["updated_at", "2017-08-18 10:08:35.275640"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 17"], ["created_at", "2017-08-18 10:08:35.281989"], ["updated_at", "2017-08-18 10:08:35.281989"]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 18"], ["created_at", "2017-08-18 10:08:35.286455"], ["updated_at", "2017-08-18 10:08:35.286455"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 19"], ["created_at", "2017-08-18 10:08:35.291080"], ["updated_at", "2017-08-18 10:08:35.291080"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 20"], ["created_at", "2017-08-18 10:08:35.295781"], ["updated_at", "2017-08-18 10:08:35.295781"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 21"], ["created_at", "2017-08-18 10:08:35.300477"], ["updated_at", "2017-08-18 10:08:35.300477"]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 22"], ["created_at", "2017-08-18 10:08:35.305146"], ["updated_at", "2017-08-18 10:08:35.305146"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 23"], ["created_at", "2017-08-18 10:08:35.310264"], ["updated_at", "2017-08-18 10:08:35.310264"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 24"], ["created_at", "2017-08-18 10:08:35.315096"], ["updated_at", "2017-08-18 10:08:35.315096"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 25"], ["created_at", "2017-08-18 10:08:35.319885"], ["updated_at", "2017-08-18 10:08:35.319885"]]
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 26"], ["created_at", "2017-08-18 10:08:35.325083"], ["updated_at", "2017-08-18 10:08:35.325083"]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 27"], ["created_at", "2017-08-18 10:08:35.329600"], ["updated_at", "2017-08-18 10:08:35.329600"]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 28"], ["created_at", "2017-08-18 10:08:35.334007"], ["updated_at", "2017-08-18 10:08:35.334007"]]
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 29"], ["created_at", "2017-08-18 10:08:35.339684"], ["updated_at", "2017-08-18 10:08:35.339684"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 30"], ["created_at", "2017-08-18 10:08:35.344567"], ["updated_at", "2017-08-18 10:08:35.344567"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 31"], ["created_at", "2017-08-18 10:08:35.349382"], ["updated_at", "2017-08-18 10:08:35.349382"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 32"], ["created_at", "2017-08-18 10:08:35.354541"], ["updated_at", "2017-08-18 10:08:35.354541"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 33"], ["created_at", "2017-08-18 10:08:35.359256"], ["updated_at", "2017-08-18 10:08:35.359256"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 34"], ["created_at", "2017-08-18 10:08:35.363884"], ["updated_at", "2017-08-18 10:08:35.363884"]]
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 35"], ["created_at", "2017-08-18 10:08:35.368385"], ["updated_at", "2017-08-18 10:08:35.368385"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 36"], ["created_at", "2017-08-18 10:08:35.373423"], ["updated_at", "2017-08-18 10:08:35.373423"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 37"], ["created_at", "2017-08-18 10:08:35.379069"], ["updated_at", "2017-08-18 10:08:35.379069"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 38"], ["created_at", "2017-08-18 10:08:35.383999"], ["updated_at", "2017-08-18 10:08:35.383999"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 39"], ["created_at", "2017-08-18 10:08:35.388874"], ["updated_at", "2017-08-18 10:08:35.388874"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 40"], ["created_at", "2017-08-18 10:08:35.393723"], ["updated_at", "2017-08-18 10:08:35.393723"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 41"], ["created_at", "2017-08-18 10:08:35.398527"], ["updated_at", "2017-08-18 10:08:35.398527"]]
+  [1m[35m (3.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 42"], ["created_at", "2017-08-18 10:08:35.403844"], ["updated_at", "2017-08-18 10:08:35.403844"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 43"], ["created_at", "2017-08-18 10:08:35.408711"], ["updated_at", "2017-08-18 10:08:35.408711"]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 44"], ["created_at", "2017-08-18 10:08:35.413252"], ["updated_at", "2017-08-18 10:08:35.413252"]]
+  [1m[35m (38.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 45"], ["created_at", "2017-08-18 10:08:35.453601"], ["updated_at", "2017-08-18 10:08:35.453601"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 46"], ["created_at", "2017-08-18 10:08:35.456474"], ["updated_at", "2017-08-18 10:08:35.456474"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 47"], ["created_at", "2017-08-18 10:08:35.459060"], ["updated_at", "2017-08-18 10:08:35.459060"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 48"], ["created_at", "2017-08-18 10:08:35.461421"], ["updated_at", "2017-08-18 10:08:35.461421"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 49"], ["created_at", "2017-08-18 10:08:35.463746"], ["updated_at", "2017-08-18 10:08:35.463746"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 50"], ["created_at", "2017-08-18 10:08:35.466421"], ["updated_at", "2017-08-18 10:08:35.466421"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 51"], ["created_at", "2017-08-18 10:08:35.469734"], ["updated_at", "2017-08-18 10:08:35.469734"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 52"], ["created_at", "2017-08-18 10:08:35.473195"], ["updated_at", "2017-08-18 10:08:35.473195"]]
+  [1m[35m (13.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 53"], ["created_at", "2017-08-18 10:08:35.488355"], ["updated_at", "2017-08-18 10:08:35.488355"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 54"], ["created_at", "2017-08-18 10:08:35.492628"], ["updated_at", "2017-08-18 10:08:35.492628"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 55"], ["created_at", "2017-08-18 10:08:35.495394"], ["updated_at", "2017-08-18 10:08:35.495394"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 56"], ["created_at", "2017-08-18 10:08:35.498893"], ["updated_at", "2017-08-18 10:08:35.498893"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 57"], ["created_at", "2017-08-18 10:08:35.501843"], ["updated_at", "2017-08-18 10:08:35.501843"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 58"], ["created_at", "2017-08-18 10:08:35.504591"], ["updated_at", "2017-08-18 10:08:35.504591"]]
+  [1m[35m (7.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 59"], ["created_at", "2017-08-18 10:08:35.514599"], ["updated_at", "2017-08-18 10:08:35.514599"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 60"], ["created_at", "2017-08-18 10:08:35.517529"], ["updated_at", "2017-08-18 10:08:35.517529"]]
+  [1m[35m (6.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 61"], ["created_at", "2017-08-18 10:08:35.525571"], ["updated_at", "2017-08-18 10:08:35.525571"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 62"], ["created_at", "2017-08-18 10:08:35.528632"], ["updated_at", "2017-08-18 10:08:35.528632"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 63"], ["created_at", "2017-08-18 10:08:35.531677"], ["updated_at", "2017-08-18 10:08:35.531677"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 64"], ["created_at", "2017-08-18 10:08:35.534378"], ["updated_at", "2017-08-18 10:08:35.534378"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (58.8ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 65"], ["created_at", "2017-08-18 10:08:35.537746"], ["updated_at", "2017-08-18 10:08:35.537746"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 66"], ["created_at", "2017-08-18 10:08:35.601641"], ["updated_at", "2017-08-18 10:08:35.601641"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 67"], ["created_at", "2017-08-18 10:08:35.604749"], ["updated_at", "2017-08-18 10:08:35.604749"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 68"], ["created_at", "2017-08-18 10:08:35.607715"], ["updated_at", "2017-08-18 10:08:35.607715"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 69"], ["created_at", "2017-08-18 10:08:35.610383"], ["updated_at", "2017-08-18 10:08:35.610383"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 70"], ["created_at", "2017-08-18 10:08:35.613354"], ["updated_at", "2017-08-18 10:08:35.613354"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 71"], ["created_at", "2017-08-18 10:08:35.617277"], ["updated_at", "2017-08-18 10:08:35.617277"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 72"], ["created_at", "2017-08-18 10:08:35.622171"], ["updated_at", "2017-08-18 10:08:35.622171"]]
+  [1m[35m (68.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 73"], ["created_at", "2017-08-18 10:08:35.692341"], ["updated_at", "2017-08-18 10:08:35.692341"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 74"], ["created_at", "2017-08-18 10:08:35.695296"], ["updated_at", "2017-08-18 10:08:35.695296"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 75"], ["created_at", "2017-08-18 10:08:35.698103"], ["updated_at", "2017-08-18 10:08:35.698103"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 76"], ["created_at", "2017-08-18 10:08:35.702614"], ["updated_at", "2017-08-18 10:08:35.702614"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 77"], ["created_at", "2017-08-18 10:08:35.706208"], ["updated_at", "2017-08-18 10:08:35.706208"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 78"], ["created_at", "2017-08-18 10:08:35.709051"], ["updated_at", "2017-08-18 10:08:35.709051"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 79"], ["created_at", "2017-08-18 10:08:35.712520"], ["updated_at", "2017-08-18 10:08:35.712520"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 80"], ["created_at", "2017-08-18 10:08:35.716221"], ["updated_at", "2017-08-18 10:08:35.716221"]]
+  [1m[35m (9.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 81"], ["created_at", "2017-08-18 10:08:35.727528"], ["updated_at", "2017-08-18 10:08:35.727528"]]
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 82"], ["created_at", "2017-08-18 10:08:35.733334"], ["updated_at", "2017-08-18 10:08:35.733334"]]
+  [1m[35m (3.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 83"], ["created_at", "2017-08-18 10:08:35.738758"], ["updated_at", "2017-08-18 10:08:35.738758"]]
+  [1m[35m (3.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 84"], ["created_at", "2017-08-18 10:08:35.744099"], ["updated_at", "2017-08-18 10:08:35.744099"]]
+  [1m[35m (4.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 85"], ["created_at", "2017-08-18 10:08:35.750461"], ["updated_at", "2017-08-18 10:08:35.750461"]]
+  [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 86"], ["created_at", "2017-08-18 10:08:35.756352"], ["updated_at", "2017-08-18 10:08:35.756352"]]
+  [1m[35m (9.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 87"], ["created_at", "2017-08-18 10:08:35.767728"], ["updated_at", "2017-08-18 10:08:35.767728"]]
+  [1m[35m (6.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 88"], ["created_at", "2017-08-18 10:08:35.775736"], ["updated_at", "2017-08-18 10:08:35.775736"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 89"], ["created_at", "2017-08-18 10:08:35.791372"], ["updated_at", "2017-08-18 10:08:35.791372"]]
+  [1m[35m (13.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 90"], ["created_at", "2017-08-18 10:08:35.806396"], ["updated_at", "2017-08-18 10:08:35.806396"]]
+  [1m[35m (9.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 91"], ["created_at", "2017-08-18 10:08:35.817643"], ["updated_at", "2017-08-18 10:08:35.817643"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 92"], ["created_at", "2017-08-18 10:08:35.820340"], ["updated_at", "2017-08-18 10:08:35.820340"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 93"], ["created_at", "2017-08-18 10:08:35.823562"], ["updated_at", "2017-08-18 10:08:35.823562"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 94"], ["created_at", "2017-08-18 10:08:35.826380"], ["updated_at", "2017-08-18 10:08:35.826380"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 95"], ["created_at", "2017-08-18 10:08:35.829105"], ["updated_at", "2017-08-18 10:08:35.829105"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 96"], ["created_at", "2017-08-18 10:08:35.832009"], ["updated_at", "2017-08-18 10:08:35.832009"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 97"], ["created_at", "2017-08-18 10:08:35.835344"], ["updated_at", "2017-08-18 10:08:35.835344"]]
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 98"], ["created_at", "2017-08-18 10:08:35.839714"], ["updated_at", "2017-08-18 10:08:35.839714"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 99"], ["created_at", "2017-08-18 10:08:35.843120"], ["updated_at", "2017-08-18 10:08:35.843120"]]
+  [1m[35m (6.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "graduates" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "Graduate 100"], ["created_at", "2017-08-18 10:08:35.850741"], ["updated_at", "2017-08-18 10:08:35.850741"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/api/v1/graduates/101" for 127.0.0.1 at 2017-08-18 15:38:49 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mGraduate Load (0.3ms)[0m  [1m[34mSELECT  "graduates".* FROM "graduates" WHERE "graduates"."id" = ? ORDER BY "graduates"."id" ASC LIMIT ?[0m  [["id", 101], ["LIMIT", 1]]
+Started GET "/api/v1/graduates/101" for 127.0.0.1 at 2017-08-18 15:38:52 +0530
+  [1m[36mGraduate Load (0.4ms)[0m  [1m[34mSELECT  "graduates".* FROM "graduates" WHERE "graduates"."id" = ? ORDER BY "graduates"."id" ASC LIMIT ?[0m  [["id", 101], ["LIMIT", 1]]
+Started GET "/api/v1/graduates/101" for 127.0.0.1 at 2017-08-18 15:38:53 +0530
+  [1m[36mGraduate Load (0.2ms)[0m  [1m[34mSELECT  "graduates".* FROM "graduates" WHERE "graduates"."id" = ? ORDER BY "graduates"."id" ASC LIMIT ?[0m  [["id", 101], ["LIMIT", 1]]
+Started GET "/api/v1/graduates/1001" for 127.0.0.1 at 2017-08-18 15:39:01 +0530
+  [1m[36mGraduate Load (0.5ms)[0m  [1m[34mSELECT  "graduates".* FROM "graduates" WHERE "graduates"."id" = ? ORDER BY "graduates"."id" ASC LIMIT ?[0m  [["id", 1001], ["LIMIT", 1]]
+Started GET "/api/v1/graduates/1001" for 127.0.0.1 at 2017-08-18 15:40:44 +0530
+  
+NoMethodError (undefined method `reverse_merge' for :name:Symbol):
+  
+app/controllers/api/v1/defaults.rb:16:in `permitted_params'
+app/controllers/api/v1/graduates.rb:18:in `block (2 levels) in <class:Graduates>'
+  Rendering /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (22.2ms)
+  Rendered /Users/bhaskar/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (128.2ms)
+Started GET "/api/v1/graduates/1001" for 127.0.0.1 at 2017-08-18 15:41:27 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mGraduate Load (12.2ms)[0m  [1m[34mSELECT  "graduates".* FROM "graduates" WHERE "graduates"."id" = ? ORDER BY "graduates"."id" ASC LIMIT ?[0m  [["id", 1001], ["LIMIT", 1]]
+Started GET "/api/v1/graduates/1001" for 127.0.0.1 at 2017-08-18 15:42:11 +0530
+  [1m[36mGraduate Load (26.1ms)[0m  [1m[34mSELECT  "graduates".* FROM "graduates" WHERE "graduates"."id" = ? ORDER BY "graduates"."id" ASC LIMIT ?[0m  [["id", 1001], ["LIMIT", 1]]
+Started GET "/api/v1/graduates/1001" for 127.0.0.1 at 2017-08-18 15:42:33 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (11.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mGraduate Load (0.2ms)[0m  [1m[34mSELECT  "graduates".* FROM "graduates" WHERE "graduates"."id" = ? ORDER BY "graduates"."id" ASC LIMIT ?[0m  [["id", 1001], ["LIMIT", 1]]
+Started GET "/api/v1/graduates/101" for 127.0.0.1 at 2017-08-18 15:43:01 +0530
+  [1m[36mGraduate Load (19.7ms)[0m  [1m[34mSELECT  "graduates".* FROM "graduates" WHERE "graduates"."id" = ? ORDER BY "graduates"."id" ASC LIMIT ?[0m  [["id", 101], ["LIMIT", 1]]
+Started GET "/api/v1/graduates/101" for 127.0.0.1 at 2017-08-18 16:03:46 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mGraduate Load (24.5ms)[0m  [1m[34mSELECT  "graduates".* FROM "graduates" WHERE "graduates"."id" = ? ORDER BY "graduates"."id" ASC LIMIT ?[0m  [["id", 101], ["LIMIT", 1]]
