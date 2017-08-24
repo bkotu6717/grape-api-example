@@ -6,7 +6,7 @@ module API
       resource :graduates do
         desc "Return all graduates"
         get "", root: :graduates do
-          Graduate.all
+          present :graduates, Graduate.all, with: API::V1::Entities::Graduate
         end
 
         desc "Return a graduate"
@@ -15,7 +15,7 @@ module API
             graduate"
         end
         get ":id", root: "graduate" do
-          Graduate.where(id: permitted_params[:id]).first!
+          present :graduate, Graduate.where(id: permitted_params[:id]).first!, with: API::V1::Entities::Graduate 
         end
       end
     end

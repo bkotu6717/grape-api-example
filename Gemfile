@@ -39,6 +39,7 @@ gem 'grape-active_model_serializers'
 gem 'rack-cors', :require => 'rack/cors'
 gem 'grape-swagger'
 gem 'grape-swagger-rails'
+gem 'grape-entity'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
