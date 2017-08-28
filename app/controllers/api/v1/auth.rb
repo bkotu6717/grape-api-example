@@ -38,11 +38,11 @@ module API
             requires :password, type: String
           end
         end
-        post "authorize" do
+        post "auth" do
           user = User.find_by_email(permitted_params[:user][:email])
           res = {}
           if user && user.authenticate(permitted_params[:user][:password])
-            res = { success: 'You have successfully loggedin.', access_token: user.api_key.access_token, status: 200 }
+            res = { success: 'You have successfully loggedin. Please send the access token on every subsequest api call.', access_token: user.api_key.access_token, status: 200 }
           else
             res = { error: 'Invalid credentails.', status: 401 }
           end

@@ -6,8 +6,10 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Graduate.delete_all
+Graduate.destroy_all
 graduates = []
 100.times { |i| graduates << { name: "Graduate #{i + 1}"} }
-
 Graduate.create! graduates
+
+User.destroy_all
+User.create email: 'sampleuser@test.com', password: '12345', password_confirmation: '12345'

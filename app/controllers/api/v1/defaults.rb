@@ -8,8 +8,8 @@ module API
         version "v1", using: :path
         default_format :json
         format :json
-        formatter :json, 
-        Grape::Formatter::ActiveModelSerializers
+        # formatter :json, 
+        # Grape::Formatter::ActiveModelSerializers
 
         helpers do
           def permitted_params
@@ -19,6 +19,13 @@ module API
 
           def logger
             Rails.logger
+          end
+
+          def current_user
+            return unless request.headers['Access-Token'].present?
+             @user ||= ApiKey.find_by_access_token(request.headers['Access-Token'])
+            return unless @user
+            @user
           end
         end
 

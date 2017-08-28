@@ -2,7 +2,9 @@ module API
   module V1
     class Graduates < Grape::API
       include API::V1::Defaults
-
+      before do
+        error!(error: 'Unathorized', status: 401) unless current_user
+      end
       resource :graduates do
         desc "Return all graduates"
         get "", root: :graduates do
