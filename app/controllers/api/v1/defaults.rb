@@ -14,6 +14,7 @@ module API
         helpers do
           def permitted_params
             @permitted_params ||= declared(params, include_missing: false)
+            @permitted_params.to_hash.with_indifferent_access
           end
 
           def logger
