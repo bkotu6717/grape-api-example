@@ -22,3 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+* The app can be found at https://grape-swagger-api.herokuapp.com/documentation
+
+* The api end points path is https://grape-swagger-api.herokuapp.com/api/v1/swagger_doc
